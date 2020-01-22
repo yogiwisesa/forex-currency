@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Demo [Forex Currency](https://hardcore-gates-68e4d8.netlify.com/).
 
 ## Installed Packages
 
