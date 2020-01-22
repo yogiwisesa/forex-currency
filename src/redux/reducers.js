@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import SampleReducer from './sample';
+import ForexRates from './forexRates';
 
 export default combineReducers({
-  SampleReducer
+  ForexRates
 });

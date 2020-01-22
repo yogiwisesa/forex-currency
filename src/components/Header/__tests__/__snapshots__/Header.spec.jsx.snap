@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<div
+  className="header-container"
+>
+  <p
+    className="currency-title"
+  >
+    USD
+     - 
+    United States Dollar
+  </p>
+  <p
+    className="currency-value"
+  >
+    <span>
+      USD
+    </span>
+    <input
+      data-test="input-amount"
+      onChange={[MockFunction]}
+      placeholder="amount..."
+      value="10"
+    />
+  </p>
+</div>
+`;

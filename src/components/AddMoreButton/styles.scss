@@ -1,0 +1,41 @@
+@import '../../styles/colors';
+
+.add-more-button-container {
+
+  .input-form {
+    display: flex;
+    margin-bottom: 4px;
+
+    input {
+      flex: 1;
+      margin-right: 4px;
+    }
+  }
+
+  .select-currencies-container {
+    border-radius: 4px;
+    height: 200px;
+    overflow: auto;
+    border: solid 1px $border;
+
+    p {
+      padding: 8px 4px;
+      margin: 0px;
+
+      &.active {
+        background: $color-orange;
+      }
+
+      &:hover {
+        transition: .3s;
+        background: $color-orange;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+  & > button {
+    width: 100%;
+  }
+}

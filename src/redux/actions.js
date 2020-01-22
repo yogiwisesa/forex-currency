@@ -1,1 +1,1 @@
-export * from './sample/actions';
+export * from './forexRates/actions';

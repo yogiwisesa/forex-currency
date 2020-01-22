@@ -1,0 +1,19 @@
+@import '../../styles/colors.scss';
+
+.toast-container {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  background: $error;
+  padding: 4px 18px;
+  border-radius: 4px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+
+  &.show {
+    visibility: visible;
+    opacity: 1;
+    transition: .3s;
+  }
+}

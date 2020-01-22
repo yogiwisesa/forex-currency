@@ -1,0 +1,24 @@
+@import '../../styles/colors.scss';
+
+.header-container {
+  background: $color-orange;
+  padding: 8px;
+  margin-bottom: 8px;
+  color: white;
+
+  .currency-title {
+    font-style: italic;
+    margin-top: 0px;
+  }
+
+  .currency-value {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 16px;
+
+    span, input {
+      flex: 1;
+    }
+  }
+}

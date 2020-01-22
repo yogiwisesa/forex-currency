@@ -1,13 +1,12 @@
 import React from 'react';
 import { renderRoutes } from 'react-router-config';
 
-class Layout extends React.Component {
+class Layout extends React.PureComponent {
 
   render() {
 
     return (
       <div>
-        <h1>this is the Layout Component</h1>
         {renderRoutes(this.props.route.routes)}
       </div>
     )

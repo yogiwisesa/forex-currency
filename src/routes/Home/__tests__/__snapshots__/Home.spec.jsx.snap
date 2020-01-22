@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<div
+  className="home"
+>
+  <Header
+    amount="10"
+    currencyCode="USD"
+    currencyName="United States Dollar"
+    onChange={[Function]}
+  />
+  <div
+    className="currency-card-container"
+  >
+    <p
+      className="no-currency"
+    >
+      Uh, please add currency by click add more button below!
+    </p>
+    <AddMoreButton
+      onCurrencySelected={[Function]}
+    />
+  </div>
+  <Toast
+    message="Failed to load currency"
+    visible={false}
+  />
+</div>
+`;

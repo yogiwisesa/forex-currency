@@ -1,5 +1,4 @@
-import App from './App/App';
-import SecondApp from './SecondApp/App';
+import Home from './Home';
 import NotFound from './NotFound';
 import Layout from '../components/Layout';
 
@@ -8,12 +7,7 @@ export default [{
   routes: [{
     path: "/",
     exact: true,
-    component: App,
-  },
-  {
-    path: "/second-page",
-    exact: true,
-    component: SecondApp,
+    component: Home,
   },
   {
     path: "*",

@@ -1,0 +1,30 @@
+@import '../../styles/colors';
+
+.card-container {
+  display: flex;
+  padding-left: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0 10px 20px 0 rgba(53,64,90,.2);
+
+  .left-side {
+    flex: 1;
+  }
+
+  .right-side {
+    padding: 8px;
+    background: $error;
+    color: white;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      background: lighten($error, 10%);
+      cursor: pointer;
+      transition: .3s;
+    }
+
+    p {
+      font-weight: bold;
+    }
+  }
+}

@@ -1,11 +1,7 @@
 import * as types from './types';
 
 const initialState = {
-  sample: {
-    status: '',
-    data: {}
-  },
-  asyncSample: {
+  forexRates: {
     loading: false,
     loaded: false,
     error: '',
@@ -14,21 +10,12 @@ const initialState = {
 };
 
 export const ACTION_HANDLERS = {
-  [types.SAMPLE_TYPES]: (state, action) => {
-    return {
-      ...state,
-      sample: {
-        status: '',
-        data: action.payload
-      }
-    }
-  },
 
-  [types.LOAD_API_SAMPLE]: (state, action) => {
+  [types.FETCH_FOREX_RATES]: (state, action) => {
     return {
       ...state,
-      asyncSample: {
-        ...state.asyncSample,
+      forexRates: {
+        ...state.forexRates,
         loading: true,
         loaded: false,
         error: '',
@@ -36,11 +23,11 @@ export const ACTION_HANDLERS = {
     }
   },
 
-  [types.LOAD_API_SAMPLE_SUCCESS]: (state, action) => {
+  [types.FETCH_FOREX_RATES_SUCCESS]: (state, action) => {
     return {
       ...state,
-      asyncSample: {
-        ...state.asyncSample,
+      forexRates: {
+        ...state.forexRates,
         loading: false,
         loaded: true,
         error: '',
@@ -49,11 +36,11 @@ export const ACTION_HANDLERS = {
     }
   },
 
-  [types.LOAD_API_SAMPLE_FAIL]: (state, action) => {
+  [types.FETCH_FOREX_RATES_FAIL]: (state, action) => {
     return {
       ...state,
-      asyncSample: {
-        ...state.asyncSample,
+      forexRates: {
+        ...state.forexRates,
         loading: false,
         loaded: false,
         error: action.payload,

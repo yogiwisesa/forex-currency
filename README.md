@@ -9,7 +9,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 5. Storybook (Write component in isolation)
 6. Jest & Enzyme (Testing)
 7. SASS (CSS Preprocessor)
-8. Antd (UI Component)
 
 ## Available Scripts
 

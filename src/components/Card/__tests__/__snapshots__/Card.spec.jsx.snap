@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<div
+  className="card-container"
+>
+  <div
+    className="left-side"
+  >
+    <p>
+      <span>
+        IDR
+      </span>
+       
+      <span
+        data-test="converted-amount"
+      >
+        130000
+      </span>
+    </p>
+    <p>
+      IDR
+       - 
+      Indonesian Rupiah
+    </p>
+    <p>
+      1 
+      USD
+       = 
+      IDR
+       
+      13000
+    </p>
+  </div>
+  <div
+    className="right-side"
+    onClick={[MockFunction]}
+  >
+    <p>
+      ( - )
+    </p>
+  </div>
+</div>
+`;
